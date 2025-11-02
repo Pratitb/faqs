@@ -1,8 +1,8 @@
-import bgPatternMob from '../assets/background-pattern-mobile.svg';
-import bgPatternDesk from '../assets/background-pattern-desktop.svg';
-import star from '../assets/icon-star.svg';
-import plus from '../assets/icon-plus.svg';
-import minus from '../assets/icon-minus.svg';
+import bgPatternMob from '../../public/background-pattern-mobile.svg';
+import bgPatternDesk from '../../public/background-pattern-desktop.svg';
+import star from '../../public/icon-star.svg';
+import plus from '../../public/icon-plus.svg';
+import minus from '../../public/icon-minus.svg';
 
 const Assets = {
 	BgPatternMob: bgPatternMob,

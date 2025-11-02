@@ -1,7 +1,8 @@
+// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// replace 'faqs' with your actual repo name
 export default defineConfig({
 	base: '/faqs/',
 	plugins: [react()],
