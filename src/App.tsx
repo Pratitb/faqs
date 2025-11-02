@@ -3,13 +3,12 @@ import './App.css';
 import Accordion from './components/accordion';
 import FaqHeader from './components/faqHeader';
 import { useAccordion } from './context/accordion/accordionContext';
-import Assets from './utils/assets';
 import { AccordionData } from './utils/data';
 import type { AccordionDataType } from './utils/types';
 
 const App = () => {
   const { updateAccordionIndex, accordionIndex } = useAccordion();
-  const [bgImage, setBgImage] = useState<string>(Assets.BgPatternMob);
+  const [bgImage, setBgImage] = useState<string>('');
 
   useEffect(() => {
     const updateBg = () => {
